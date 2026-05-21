@@ -1,20 +1,17 @@
-# Reviewer Guide
+# Reviewer Guide · Kivola
 
-This repo is a portfolio support artifact. The fastest review path is:
+## In 60 Sekunden prüfen
 
-1. Open the process flow.
-2. Read the Max Handwerk roadmap note.
-3. Skim the guardrails.
-4. Check the technical evidence summary.
+1. README: Gespräch, Analyse, Fahrplan und Review-Rolle verstehen.
+2. `docs/workflow.md`: Weg vom Kundengespräch zum KI-Fahrplan lesen.
+3. `src/roadmap_pipeline.py`: reduzierten Code-Kern ansehen.
+4. `tests/test_roadmap_pipeline.py`: prüfen, welche Priorisierungslogik getestet ist.
+5. `docs/public-private-boundary.md`: sehen, welche Kundeninformationen bewusst draußen bleiben.
 
-## Strong Signal
+## Was dieser Proof zeigen soll
 
-Kivola shows customer-facing AI implementation: discovery, prioritization, ROI assumptions, tool choice, pilot design and handoff.
+Kivola zeigt, wie aus einem Gespräch eine strukturierte KI-Einführung wird: Use Cases erkennen, priorisieren, Tool-/API-Optionen einordnen, Fahrplan erzeugen und durch Robert prüfen.
 
-## Known Limits
+## Was dieser Proof nicht zeigen soll
 
-- Public artifacts are anonymized or synthetic.
-- Impact numbers are treated as assumptions unless explicitly measured and released.
-- Legal/compliance notes are implementation guardrails, not legal advice.
-- Private raw customer material is intentionally not part of this repository.
-
+Das Repo enthält keine Rohtranskripte, Kundennamen, internen Notizen oder vollständigen Prompts. Der Code ist eine public-safe Kernlogik, nicht der vollständige Kundenworkflow.

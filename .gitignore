@@ -1,5 +1,14 @@
-node_modules/
-.DS_Store
 .env
 .env.*
+__pycache__/
+.venv/
+venv/
 *.log
+*.docx
+*.pdf
+*.zip
+raw/
+private/
+customer-data/
+transcripts/
+

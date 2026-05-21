@@ -1,0 +1,9 @@
+[project]
+name = "kivola-ai-adoption-public-proof"
+version = "0.1.0"
+description = "Public-safe roadmap pipeline proof for the Kivola AI adoption case."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+

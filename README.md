@@ -1,40 +1,69 @@
-# Kivola AI Adoption Case
+# Kivola · KI-Adoption aus Kundengespräch
 
-Kivola is my AI adoption case: a system for turning a discovery conversation into a concrete AI implementation roadmap.
+Kivola zeigt, wie aus einem Kundengespräch ein KI-Fahrplan entsteht: Gespräch verstehen, Transkript strukturieren, Arbeitsabläufe analysieren, Tool-/API-Lösung auswählen, Testlauf planen und verständlich übergeben.
 
-The case is built around a simple question: if a small company says "we should use AI", how do you find the first useful workflow without selling random tools or overpromising automation?
+Der Kern ist kundennahe Umsetzung. Nicht “mehr Tools”, sondern: Was sollte dieses Unternehmen zuerst testen, warum genau dort und wie wird das Ergebnis kontrolliert?
 
-## Review in 2 Minutes
+## 60-Sekunden-Überblick
 
-| What to check | Where |
+| Frage | Antwort |
 | --- | --- |
-| How the workflow works | [Process flow](./assets/process-flow.svg) |
-| Example roadmap output | [Max Handwerk roadmap](./docs/max-handwerk-roadmap.html) |
-| Implementation logic | [Demo roadmap](./docs/demo-roadmap.md) |
-| Quality boundaries | [Guardrails](./docs/guardrails.md) |
-| Technical evidence | [Technical evidence](./docs/technical-evidence.md) |
+| Problem | Kleine Unternehmen wissen oft nicht, wo KI im Alltag zuerst sinnvoll ist. |
+| Lösung | Ein phasenbasierter KI-Fahrplan aus Gespräch, Transkript, Recherche, Priorisierung, Review und Übergabe. |
+| KI-Rolle | KI-Agenten strukturieren Recherche, Analyse, Toolauswahl und Dokumententwurf. |
+| Roberts Rolle | Gesprächslogik, Analyseablauf, Review, anonymisierte Arbeitsprobe und Übergabeform entwickelt. |
+| Öffentliche Arbeitsprobe | Anonymisierter Max-Mustermann-Fahrplan als PDF im Portfolio. |
+| Öffentliche Grenze | Keine Rohtranskripte, Kundennamen, internen Notizen oder vollständigen Prompts. |
 
-## What This Shows
+## Architektur
 
-- customer discovery translated into a structured implementation plan
-- use-case prioritization by value, effort and risk
-- tool selection when existing tools are better than custom build
-- assumptions separated from measured impact
-- a handoff format that a non-technical team can actually use
+Siehe [docs/architecture.md](./docs/architecture.md).
 
-## Public Case Boundary
+## Workflow
 
-This repository uses anonymized and synthetic material. It does not contain real customer names, contacts, reports, transcripts, private prompts, logs, CRM data, analytics, revenue data or API keys.
+Siehe [docs/workflow.md](./docs/workflow.md).
 
-The original private Kivola workspace stays private. This repository exists so a reviewer can understand the delivery system without seeing customer material.
+## Für Reviewer
 
-## Portfolio Context
+Siehe [docs/reviewer-guide.md](./docs/reviewer-guide.md) für den schnellen Prüfpfad.
 
-- Main portfolio: [robert-systems.com](https://robert-systems.com)
-- Case focus: AI Implementation, Workflow Automation, AI Adoption, customer-facing AI systems
-- Related cases: [FotoKalk](https://github.com/ro-sketch12/Fotokalk), [OpenClaw/Klause](https://github.com/ro-sketch12/robert-systems-agents)
+## Public-safe Code-Proof
 
-## Why This Matters for Hiring
+Dieses Repo enthält keinen vollständigen Kunden- oder Agenten-Workflow. Der Code-Kern zeigt reduziert und ausführbar, wie Gesprächsmaterial in priorisierte Anwendungsfälle und einen prüfbaren Fahrplan überführt werden kann:
 
-This case is not meant to prove classic software-engineering depth. It is meant to show implementation judgment: ask the right questions, narrow the workflow, choose the right tool or build path, create a usable output and keep claims honest.
+- `src/roadmap_pipeline.py`: deterministische Demo-Pipeline für Use-Case-Erkennung, Priorisierung, Fahrplan und Review-Gate
+- `tests/test_roadmap_pipeline.py`: Tests für Priorisierung, Fahrplanstruktur und anonymisierte Demo-Daten
 
+Lokal prüfen:
+
+```bash
+python3 -m unittest discover -s tests
+python3 scripts/public_safety_scan.py
+```
+
+Der Code arbeitet nur mit Max-Mustermann-Demo-Daten. Nicht enthalten sind Rohtranskripte, Kundennamen, interne Notizen, vollständige Prompts oder externe API-Aufrufe.
+
+## Was öffentlich prüfbar ist
+
+- Fahrplan-Logik
+- Analysephasen
+- Review-/Handover-Rolle
+- reduzierter, ausführbarer Code-Kern für Priorisierung und Fahrplanstruktur
+- anonymisierte PDF-Arbeitsprobe
+- Public/Private-Grenze
+
+## Was bewusst nicht öffentlich ist
+
+- Originaltranskripte
+- echte Kundennamen und Kontakte
+- interne Notizen
+- vollständige Rohprompts
+- nicht geprüfte Preis-/ROI-/Förderversprechen
+
+## Tech/Tools
+
+Python, python-docx, strukturierte JSON-Daten, Recherche- und Scraping-Workflows, Dokumentgenerierung, manuelle Review- und Übergabelogik.
+
+## Portfolio-Link
+
+Der anonymisierte Original-Fahrplan wird über das Portfolio verlinkt, nicht als schweres PDF in dieses Repo gelegt.

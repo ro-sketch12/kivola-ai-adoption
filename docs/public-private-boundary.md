@@ -1,24 +1,36 @@
-# Public / Private Boundary
+# Public/Private Boundary · Kivola
 
-## Public
+## Öffentlich
 
-- anonymized roadmap example
-- synthetic demo customer
-- process diagram
-- guardrail checklist
-- high-level technical evidence
+- Prozesslogik
+- Architektur
+- anonymisierte Arbeitsprobe
+- bekannte Grenzen
+- Tool-/API-Auswahl als Kategorie
+- Review- und Übergabelogik
 
-## Private
+## Privat
 
-- real customer names and contacts
-- original transcripts
-- original reports with private context
-- private prompts
-- raw logs
-- CRM or pipeline data
-- analytics screenshots
-- revenue data
-- API keys and environment files
+- Rohtranskripte
+- echte Kundennamen
+- Kontakte, Preise, interne Notizen
+- vollständige Kundendokumente ohne Anonymisierung
+- vollständige interne Prompts
+- nicht geprüfte Recherche- und Quellenrohdaten
 
-This boundary is part of the case. AI adoption work only works professionally when useful proof and private customer context are separated.
+## Formulierung
+
+Gut:
+
+- “anonymisierte Arbeitsprobe”
+- “KI-Agenten unterstützen Analyse und Dokumententwurf”
+- “Robert prüft und übergibt den Fahrplan”
+- “Testlauf statt großer Behauptung”
+
+Nicht verwenden:
+
+- “garantierte Zeitersparnis”
+- “DSGVO-konform”
+- “vollautomatisch”
+- nicht belegte ROI-Zahlen
 
