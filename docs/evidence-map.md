@@ -1,6 +1,6 @@
 # Evidence Map · Kivola
 
-Quelle: siehe `github-public-proof/evidence/kivola-evidence-map.md` in der Arbeitskopie.
+Diese Übersicht fasst zusammen, welche Aussagen öffentlich gezeigt werden und welche Teile bewusst privat bleiben.
 
 | Öffentliche Aussage | Belegart | Öffentliche Darstellung |
 | --- | --- | --- |
@@ -9,5 +9,5 @@ Quelle: siehe `github-public-proof/evidence/kivola-evidence-map.md` in der Arbei
 | Fahrplan enthält Priorisierung und Tool-/API-Auswahl | Original-Skill und Delivery-Logik | README + Workflow |
 | Robert prüft den Entwurf | Delivery-Logik: 80%-Entwurf, Berater finalisiert | Review-Schritt |
 | Arbeitsprobe ist anonymisiert | Max-Mustermann-PDF im Portfolio | Link statt Rohdatei |
-| Priorisierungslogik ist reduziert prüfbar | Public-safe Nachbau ohne Rohtranskripte/API-Aufrufe | `src/roadmap_pipeline.py` + Tests |
-| Repo ist schnell reviewbar | kuratierte Review-Führung | `docs/reviewer-guide.md` |
+| Priorisierungslogik ist reduziert prüfbar | Öffentlicher Nachbau ohne Rohtranskripte/API-Aufrufe | `src/roadmap_pipeline.py` + Tests |
+| Repo ist schnell lesbar | kuratierte Schnellübersicht | `docs/quick-review.md` |

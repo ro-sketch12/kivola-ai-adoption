@@ -1,4 +1,4 @@
-# Reviewer Guide · Kivola
+# Schneller Überblick · Kivola
 
 ## In 60 Sekunden prüfen
 
@@ -8,10 +8,10 @@
 4. `tests/test_roadmap_pipeline.py`: prüfen, welche Priorisierungslogik getestet ist.
 5. `docs/public-private-boundary.md`: sehen, welche Kundeninformationen bewusst draußen bleiben.
 
-## Was dieser Proof zeigen soll
+## Was diese Arbeitsprobe zeigen soll
 
 Kivola zeigt, wie aus einem Gespräch eine strukturierte KI-Einführung wird: Use Cases erkennen, priorisieren, Tool-/API-Optionen einordnen, Fahrplan erzeugen und durch Robert prüfen.
 
-## Was dieser Proof nicht zeigen soll
+## Was diese Arbeitsprobe nicht zeigen soll
 
-Das Repo enthält keine Rohtranskripte, Kundennamen, internen Notizen oder vollständigen Prompts. Der Code ist eine public-safe Kernlogik, nicht der vollständige Kundenworkflow.
+Das Repo enthält keine Rohtranskripte, Kundennamen, internen Notizen oder vollständigen Prompts. Der Code ist eine öffentlich reduzierte Kernlogik, nicht der vollständige Kundenworkflow.
