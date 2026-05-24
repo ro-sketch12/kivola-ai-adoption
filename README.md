@@ -1,4 +1,4 @@
-# Kivola · KI-Adoption aus Kundengespräch
+# Kivola
 
 Kivola zeigt, wie aus einem Kundengespräch ein KI-Fahrplan entsteht: Gespräch verstehen, Transkript strukturieren, Arbeitsabläufe analysieren, Tool-/API-Lösung auswählen, Testlauf planen und verständlich übergeben.
 
