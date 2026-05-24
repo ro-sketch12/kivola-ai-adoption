@@ -29,8 +29,7 @@ Gut:
 
 Nicht verwenden:
 
-- “garantierte Zeitersparnis”
-- “DSGVO-konform”
-- “vollautomatisch”
+- nicht belegte Ergebnis- oder Effizienzversprechen
+- ungeprüfte Compliance-Aussagen
+- Autonomie-Claims ohne Einordnung
 - nicht belegte ROI-Zahlen
-
