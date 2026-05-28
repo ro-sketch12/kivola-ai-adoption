@@ -64,6 +64,9 @@ Der Code arbeitet nur mit Max-Mustermann-Demo-Daten. Nicht enthalten sind Rohtra
 
 Python, python-docx, strukturierte JSON-Daten, Recherche- und Scraping-Workflows, Dokumentgenerierung, manuelle Review- und Übergabelogik.
 
-## Portfolio-Link
+## Öffentliche Links
+
+- Portfolio: `https://robert-systems.com`
+- Kivola Website: `https://kivola.de/`
 
 Der anonymisierte Original-Fahrplan wird über das Portfolio verlinkt, nicht als schweres PDF in dieses Repo gelegt.

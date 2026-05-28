@@ -19,6 +19,6 @@ jobs:
       - name: Check for oversized files
         run: |
           if find . -type f -size +1M | grep .; then
-            echo "Oversized files should not be committed to this public proof repo."
+            echo "Oversized files should not be committed to this public repository."
             exit 1
           fi
